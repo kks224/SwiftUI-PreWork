@@ -16,16 +16,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var SchoolName: UITextField!
     @IBOutlet weak var yearSegmentedControl: UISegmentedControl!
     @IBOutlet weak var numberPets: UILabel!
+    @IBOutlet weak var funFact: UITextField!
+    
     
     @IBAction func introduceSelfDidTapped(_ sender: UIButton) {
-            
-            
+
             // Lets us choose the title we have selected from the segmented control
             // In our example that is whether it is first, second, third or forth
             let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)
             
             // Creating a constant of type string that holds an introduction. The introduction receives the values from the outlet connections.
-            let introduction = "My name is \(firstName.text!) \(LastName.text!) and I attend \(SchoolName.text!). I am currently in \(year!) year and I own \(numberPets.text!) dogs. It is \(petsSwitch.isOn) that I want more pets."
+        let introduction = "My name is \(firstName.text!) \(LastName.text!) and I attend \(SchoolName.text!). A fun fact about me is: \(funFact.text!). I am currently in \(year!) year and I own \(numberPets.text!) dogs. It is \(petsSwitch.isOn) that I want more pets."
             
             // Creates the alert where we pass in our message, which our introduction.
             let alertController = UIAlertController(title: "My Introduction", message: introduction, preferredStyle: .alert)
@@ -43,6 +44,8 @@ class ViewController: UIViewController {
           
           numberPets.text = "\(Int(sender.value))"
       }
+    
+    
     
     override func viewDidLoad() {
         
