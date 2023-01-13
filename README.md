@@ -1,8 +1,8 @@
-## NAME_OF_YOUR_APP_HERE
+## APP: Introduce Yourself, Student Intro APP
 
 ### App Description
 
-`TODO://` Add app description
+`TODO://` This app is utilized to introduce yourself as a student and utilizes concepts of control dragging and IBOutlets to gather user input. It outputs  user input as a pop-up message dialoge box. 
 
 ### App Walk-though
 
