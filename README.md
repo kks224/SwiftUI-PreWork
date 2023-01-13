@@ -2,7 +2,7 @@
 
 ### App Description
 
-`TODO://` This app is utilized to introduce yourself as a student and utilizes concepts of control dragging and IBOutlets to gather user input. It outputs  user input as a pop-up message dialoge box. 
+This app is utilized to introduce yourself as a student and utilizes concepts of control dragging and IBOutlets to gather user input. It outputs  user input as a pop-up message dialoge box. 
 
 ### App Walk-though
 
